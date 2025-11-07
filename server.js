@@ -7,7 +7,7 @@
 import express from "express";
 import nodemailer from "nodemailer";
 import sqlite3 from "sqlite3";
-import { open } from "sqlite";
+import { open } from "sqlite3";
 import cors from "cors";
 import dotenv from "dotenv";
 
